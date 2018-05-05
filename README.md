@@ -166,7 +166,7 @@ config.setLineAndArcColor(0xFFFFFFFF);
 -keep enum com.wooplr.spotlight.**
 ```
 
-#Credits
+# Credits
 
 [MaterialIntroView](https://github.com/iammert/MaterialIntroView)
 
