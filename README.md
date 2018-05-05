@@ -7,9 +7,11 @@ Spotlight is an Android library used to onboard users by showcasing specific fea
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Spotlight-green.svg?style=flat)](http://android-arsenal.com/details/1/3730)
 
 #Screen
+
 <img src="https://raw.githubusercontent.com/wooplr/Spotlight/master/art/intro.gif?token=AA5ZAHdvAspW6Zj8YyyKamkV7jWXFtMHks5XaQovwA%3D%3D"/>
 
 #Usage
+
 ```java
 new SpotlightView.Builder(this)
         .introAnimationDuration(400)
@@ -83,18 +85,23 @@ new SpotlightView.Builder(this)
 # Builder Methods
 
 ### maskColor(int)
+
 Overlay Color
 
 ### target(View)
+
 View to showcase
 
 ### introAnimationDuration(long)
+
 Intro animation duration (For Reveal and Fadein)
 
 ### enableRevealAnimation(boolean)
+
 Enable reveal animation (Only for Lollipop and above)
 
 ### fadeinTextDuration(long)
+
 Fade in animation duration for spotlight text (Heading and Sub-heading)
 
 ### headingTvSize(int)
@@ -137,6 +144,7 @@ Dismiss spotlight on touch outside
 Dismiss spotlight on touch outside after spotlight is completely visible
 
 # Configuration Method
+
 ```java
 //Create global config instance to reuse it
 SpotlightConfig config = new SpotlightConfig();
@@ -159,6 +167,7 @@ config.setLineAndArcColor(0xFFFFFFFF);
 ```
 
 #Credits
+
 [MaterialIntroView](https://github.com/iammert/MaterialIntroView)
 
 [Rahul Khanna](https://www.linkedin.com/in/rahul-khanna-01705827)
@@ -166,4 +175,5 @@ config.setLineAndArcColor(0xFFFFFFFF);
 [Suraj Barthy](https://dribbble.com/thesbdesign)
 
 ## License
+
 [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt)
